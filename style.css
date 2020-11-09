@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body {
+	background-color: black;
+	color:rgba(0,255,0,1.00);
+	font-family: monospace;
+}
+
+a {
+	color: rgba(255,0,0,1.00);
+	text-decoration: none;
+}
+a:hover {
+	color: rgba(0,0,255,1.00);
+	text-decoration: none;
+	letter-spacing: 0.1em;
+}
+
+#tit {
+	font-size: 2em;
+	letter-spacing: normal; 
+}
+#tit:hover {
+	letter-spacing: .2em;
+}
+#txt {
+	font-size: 1.5em;
+}
+#abt {
+	letter-spacing: -0.3pt;
+	font-size: 1.2em;
+}
